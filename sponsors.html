@@ -1,0 +1,79 @@
+<html>
+<head>
+<!--Import Google Icon Font-->
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--Import materialize.css-->
+<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css"  media="screen, projection"/>
+<link type="text/css" rel="stylesheet" href="style.css"/>
+<!--Let browser know website is optimized for mobile-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+<header style="background: url('BG-S.png'); background-size: cover;"></header>
+<nav class="main-nav">
+  <div class="nav-wrapper">
+    <a href="#" class="brand-logo"><img class="brand" src="http://nushackers.org/images/nushackersl.gif"></a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="discussion.html">Discussion</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="code.html">Code</a></li>
+      <li class="active"><a href="sponsors.html">Sponsors</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="main">
+<div class="container">
+  <div class="row">
+    <div class="col s12">
+      <img class="responsive-img" src="http://smartcompliance.co/wp-content/uploads/SeparationLineGray.png">
+      <h5><center>Sponsors</center></h5>
+      <img class="responsive-img" src="http://smartcompliance.co/wp-content/uploads/SeparationLineGray.png">
+
+      <div class="center-align">
+        NUS Hackers would like to thank these sponsors for their constant support for NUS Hackers events:
+      </div>
+
+      <div class="carousel", style="height: 150%;">
+        <a class="carousel-item" href="#s1">
+          <img class="carousel-img" src="Logo-Garena.png">
+        </a>
+        <a class="carousel-item" href="#s2">
+          <img class="carousel-img" src="Logo-Google.png">
+        </a>
+        <a class="carousel-item" href="#s3">
+          <img class="carousel-img" src="Logo-Vans.png">
+        </a>
+        <a class="carousel-item" href="#s4">
+          <img class="carousel-img" src="Logo-Boeing.png">
+        </a>
+        <a class="carousel-item" href="#s5">
+          <img class="carousel-img" src="Logo-Carousell.png">
+        </a>
+      </div>
+    </div><!-- col s12 -->
+  </div><!-- row -->
+
+  <footer>
+    <img class="responsive-img" src="http://smartcompliance.co/wp-content/uploads/SeparationLineGray.png">
+    <center>&copy; NUS Hackers</center>
+  </footer>
+
+</div><!-- container -->
+</div><!-- main -->
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.carousel').carousel();
+  });
+</script>
+</body>
+</html>
